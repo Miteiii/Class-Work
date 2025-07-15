@@ -77,5 +77,6 @@ if __name__ == '__main__':
 
     print(q.dequeue())
     print(q.dequeue())
+    print(q.peek())
     print(q)
     print(len(q))
