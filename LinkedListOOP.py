@@ -25,8 +25,8 @@ class Linkedlist:
         new_node = Node(new_data)
 
         if self.head is None: # (means the list is empty)
-           new_node = new_node #Making it the last node
-           return None
+           self.head = new_node #Making it the last node
+           return
 
         last = self.head
 
